@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AD0BC1EA198D2A8800AF40E7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0BC1E9198D2A8800AF40E7 /* main.swift */; };
+		ADA2CB8C199794BC0047B805 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA2CB8B199794BC0047B805 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		AD0BC1E4198D2A8800AF40E7 /* CopyFiles */ = {
+		ADA2CB86199794BC0047B805 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		AD0BC1E6198D2A8800AF40E7 /* 集合 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "集合"; path = "/Users/wyatt/macdevs/studyswift/集合/build/Debug/集合"; sourceTree = "<absolute>"; };
-		AD0BC1E9198D2A8800AF40E7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		ADA2CB88199794BC0047B805 /* 流控制 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "流控制"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADA2CB8B199794BC0047B805 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AD0BC1E3198D2A8800AF40E7 /* Frameworks */ = {
+		ADA2CB85199794BC0047B805 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,85 +38,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AD0BC1DD198D2A8800AF40E7 = {
+		ADA2CB7F199794BC0047B805 = {
 			isa = PBXGroup;
 			children = (
-				AD0BC1E8198D2A8800AF40E7 /* 集合 */,
+				ADA2CB8A199794BC0047B805 /* 流控制 */,
+				ADA2CB89199794BC0047B805 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		AD0BC1E8198D2A8800AF40E7 /* 集合 */ = {
+		ADA2CB89199794BC0047B805 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AD0BC1E9198D2A8800AF40E7 /* main.swift */,
+				ADA2CB88199794BC0047B805 /* 流控制 */,
 			);
-			path = "集合";
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADA2CB8A199794BC0047B805 /* 流控制 */ = {
+			isa = PBXGroup;
+			children = (
+				ADA2CB8B199794BC0047B805 /* main.swift */,
+			);
+			path = "流控制";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AD0BC1E5198D2A8800AF40E7 /* 集合 */ = {
+		ADA2CB87199794BC0047B805 /* 流控制 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AD0BC1ED198D2A8800AF40E7 /* Build configuration list for PBXNativeTarget "集合" */;
+			buildConfigurationList = ADA2CB8F199794BC0047B805 /* Build configuration list for PBXNativeTarget "流控制" */;
 			buildPhases = (
-				AD0BC1E2198D2A8800AF40E7 /* Sources */,
-				AD0BC1E3198D2A8800AF40E7 /* Frameworks */,
-				AD0BC1E4198D2A8800AF40E7 /* CopyFiles */,
+				ADA2CB84199794BC0047B805 /* Sources */,
+				ADA2CB85199794BC0047B805 /* Frameworks */,
+				ADA2CB86199794BC0047B805 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "集合";
-			productName = "集合";
-			productReference = AD0BC1E6198D2A8800AF40E7 /* 集合 */;
+			name = "流控制";
+			productName = "流控制";
+			productReference = ADA2CB88199794BC0047B805 /* 流控制 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		AD0BC1DE198D2A8800AF40E7 /* Project object */ = {
+		ADA2CB80199794BC0047B805 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = wyatt;
 				TargetAttributes = {
-					AD0BC1E5198D2A8800AF40E7 = {
+					ADA2CB87199794BC0047B805 = {
 						CreatedOnToolsVersion = 6.0;
 					};
 				};
 			};
-			buildConfigurationList = AD0BC1E1198D2A8800AF40E7 /* Build configuration list for PBXProject "集合" */;
+			buildConfigurationList = ADA2CB83199794BC0047B805 /* Build configuration list for PBXProject "流控制" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = AD0BC1DD198D2A8800AF40E7;
-			productRefGroup = AD0BC1DD198D2A8800AF40E7;
+			mainGroup = ADA2CB7F199794BC0047B805;
+			productRefGroup = ADA2CB89199794BC0047B805 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AD0BC1E5198D2A8800AF40E7 /* 集合 */,
+				ADA2CB87199794BC0047B805 /* 流控制 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AD0BC1E2198D2A8800AF40E7 /* Sources */ = {
+		ADA2CB84199794BC0047B805 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD0BC1EA198D2A8800AF40E7 /* main.swift in Sources */,
+				ADA2CB8C199794BC0047B805 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		AD0BC1EB198D2A8800AF40E7 /* Debug */ = {
+		ADA2CB8D199794BC0047B805 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -157,7 +166,7 @@
 			};
 			name = Debug;
 		};
-		AD0BC1EC198D2A8800AF40E7 /* Release */ = {
+		ADA2CB8E199794BC0047B805 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -191,14 +200,14 @@
 			};
 			name = Release;
 		};
-		AD0BC1EE198D2A8800AF40E7 /* Debug */ = {
+		ADA2CB90199794BC0047B805 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		AD0BC1EF198D2A8800AF40E7 /* Release */ = {
+		ADA2CB91199794BC0047B805 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -208,25 +217,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AD0BC1E1198D2A8800AF40E7 /* Build configuration list for PBXProject "集合" */ = {
+		ADA2CB83199794BC0047B805 /* Build configuration list for PBXProject "流控制" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AD0BC1EB198D2A8800AF40E7 /* Debug */,
-				AD0BC1EC198D2A8800AF40E7 /* Release */,
+				ADA2CB8D199794BC0047B805 /* Debug */,
+				ADA2CB8E199794BC0047B805 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AD0BC1ED198D2A8800AF40E7 /* Build configuration list for PBXNativeTarget "集合" */ = {
+		ADA2CB8F199794BC0047B805 /* Build configuration list for PBXNativeTarget "流控制" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AD0BC1EE198D2A8800AF40E7 /* Debug */,
-				AD0BC1EF198D2A8800AF40E7 /* Release */,
+				ADA2CB90199794BC0047B805 /* Debug */,
+				ADA2CB91199794BC0047B805 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = AD0BC1DE198D2A8800AF40E7 /* Project object */;
+	rootObject = ADA2CB80199794BC0047B805 /* Project object */;
 }
