@@ -17,3 +17,10 @@ func backwards(s1: String, s2: String) -> Bool {
 
 var reversed = sorted(names, backwards)
 println(reversed)
+
+// 使用闭包
+var reversed1 = sorted(names, { (s1: String, s2: String) -> Bool in return s1 > s2 })
+println(reversed1)
+
+var r2 = sorted(names, <)
+println(r2)
