@@ -30,4 +30,3 @@ for (k, v) in courese {
 
 [Int](courese.keys)
 [String](courese.values)
-
